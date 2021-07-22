@@ -24,7 +24,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 SECRET_KEY = 'hvg)7(5!a-&7&%i%*v^3u3f7rwu(w&@jk2uh&z4ikx3z5*+f9='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.BrokenLinkEmailsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ]
 
