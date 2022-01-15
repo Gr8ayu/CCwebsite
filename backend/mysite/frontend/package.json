@@ -17,7 +17,7 @@
     "classnames": "2.2.6",
     "history": "4.9.0",
     "html-to-react": "^1.4.2",
-    "marked": "^1.0.0",
+    "marked": "^4.0.10",
     "perfect-scrollbar": "1.4.0",
     "prop-types": "15.7.2",
     "react": "^16.13.1",
